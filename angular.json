@@ -7,8 +7,8 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "inlineTemplate": true,
-          "inlineStyle": true,
+          "inlineTemplate": false,
+          "inlineStyle": false,
           "skipTests": true
         },
         "@schematics/angular:class": {
@@ -104,6 +104,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "agendamento-transf-financeira-front-angular"
+    }
+  },
+  "defaultProject": "agendamento-transf-financeira-front-angular",
+  "cli": {
+    "analytics": "6b615c0d-5a30-41ae-90a4-02918554daf0"
+  }
 }
