@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `
+  /*template: `
     <!--The content below is only a placeholder and can be replaced.-->
     <div style="text-align:center" class="content">
       <h1>
@@ -25,7 +25,8 @@ import { Component } from '@angular/core';
     </ul>
     <router-outlet></router-outlet>
   `,
-  styles: []
+  styles: []*/
+  templateUrl: 'app.component.html'
 })
 export class AppComponent {
   title = 'agendamento-transf-financeira-front-angular';
